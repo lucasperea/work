@@ -1,0 +1,44 @@
+
+
+body
+{background-color:#f1f1f1; font-family: 'Roboto', sans-serif;}
+
+.branding-top
+{background-color: #000; color:#fff; font-family: 'Oswald', sans-serif;}
+
+/*content*/
+.content
+{background-color:#fff; color:#000;}
+.content h2
+{font-weight: 700;}
+.content h4
+{font-weight: 700;}
+.event-information
+{background-color:#f1f1f1; color:#000; padding: 1%;}
+/*panel override*/
+.panel-default
+{border-radius: 0; border: 0;}
+
+
+.panel-body-bg
+{border-radius: 0; padding: 0; height: 200px; }
+.panel-footer, .panel-header
+{background-color:#000; color:#fff; font-weight: 700; border-radius:0;}
+.panel-default h3
+{background: url("../assets/images/000000-.6.png"); color:#fff; font-weight: 700; padding: 3%; margin-top: 150px; }
+.panel-heading
+{background-color:#000; color:#fff; border-radius: 0;}
+.panel-title
+{font-weight: 700;}
+
+
+
+/*navbar override*/
+.navbar-brand
+{font-weight: 700;}
+
+
+/*modal override*/
+.modal-header
+{background-color:#000; color:#fff;}
+
