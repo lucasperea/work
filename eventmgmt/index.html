@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+<head>
+
+<title>Event Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,700" rel="stylesheet">
+		<!-- bootstrap-->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">
+	<!--font awesome-->
+	<link rel="stylesheet" href="assets/css/font-awesome.css">
+		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+	<!--custom css-->
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+
+ <nav class="navbar navbar-default" role="navigation">
+ 	<div class="container-fluid">
+ 		<div class="row">
+ 			<div class="col-md-12">
+ 				yes this is the navigation
+ 			</div>
+ 		</div>
+ 	</div>
+ 	
+ </nav>
+ <section>
+ 	<div class="container-fluid">
+ 		<div class="row">
+ 			<div class="col-md-12">
+ 				<h2 class="text-center">event management</h2>
+ 				 <a href="addEvent.html" class="btn btn-success" role="button">Add Event</a>
+ 				<table class="table table-responsive">
+ 					    <thead class="table-header">
+      <tr>
+        <th>Event Code</th>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Venue</th>
+        <th class="text-center">Status</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+          <tr >
+            <td>1234567890</td>
+        <td>Wednesday 7/13/16<br>
+        9:00PM
+        </td>
+        <td><a data-toggle="modal" href="#" data-target="#1234567890">Taming of the Shrew</a></td>
+        <td>Wicomico Performing Arts</td>
+        <td class="text-center">
+<input type="checkbox" checked data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-on="Active" data-off="Inactive" data-size="small">
+        <td class="text-right" >
+          
+          <a href="index2.html" class="btn btn-info" role="button">Modify</a>
+    
+          <a href="#" data-toggle="popover" title="Delete Event Disabled" data-placement="bottom" data-content="The ability to delete the event disabled."><button class="btn btn-danger  disabled">Delete</button></a>
+          
+</td>
+</tr>
+          <tr >
+            <td>1234567890</td>
+        <td>Thursday 7/14/16<br>
+        9:00PM
+        </td>
+        <td>Taming of the Shrew</td>
+        <td>Downtown Theatre</td>
+        <td class="text-center"><input type="checkbox" unchecked data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-on="Active" data-off="Inactive" data-size="small"></td>
+        <td class="text-right" >
+
+          <button class="btn btn-info">Modify</button>
+         <button class="btn btn-danger  ">Delete</button>
+          
+</td>
+</tr>
+          <tr>
+            <td>1234567890</td>
+        <td>Thursday 7/14/16<br>
+        9:00PM
+        </td>
+        <td>Taming of the Shrew</td>
+        <td>Downtown Theatre</td>
+        <td class="text-center"><h4><span class="label label-warning">Past Event</span></h4></td>
+        <td class="text-right" >
+
+          <button class="btn btn-info disabled">Modify</button>
+         <button class="btn btn-danger disabled ">Delete</button>
+          
+</td>
+</tr>
+    </tbody>
+ 					
+ 				</table>
+ 			</div>
+ 			
+ 		</div>
+ 		
+ 	</div>
+ </section>
+ 
+
+  <!-- Modal -->
+<div id="1234567890" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+			
+
+        <h4 class="modal-title">Wednesday, 7/13/16 - Taming of the Shrew </h4>
+      </div>
+      <div class="modal-body">
+        <span class=" pull-right">	<input type="checkbox" checked data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-on="Active" data-off="Inactive" data-size="small"></span>
+        <h3 class="text-center">event information</h3>
+				<strong>	Event Code:	</strong>783740 (Active)<br>
+				<strong>Owner:</strong>	Tix Test Organization (622)<br>
+				<strong>Name of Event:</strong>	***Quetzal*** (41072)<br>
+				<strong>Production Description:</strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet nulla congue, vestibulum erat ac, tincidunt felis. Quisque efficitur urna lacus, sit amet venenatis nulla rutrum non. Sed placerat dapibus eleifend. Nulla nibh sem, aliquet vitae ultricies vel, eleifend eu quam. Pellentesque tristique tellus eu massa tincidunt, sit amet tempor arcu accumsan. Cras ut porta ex. Curabitur vitae mi orci. Morbi consectetur magna a enim pulvinar auctor. Donec sem urna, fermentum ut elementum eget, sodales ut tellus.<br>	
+				<strong>Event Description:</strong>	<br>
+				<strong>Venue:</strong>	GA Pavillion (5578)<br>
+				<strong>Seat Map Name:</strong>	GABYSECTION1X (View Map)<br>
+				<strong>Venue Address 1:</strong>	<br>
+				<strong>Venue Address 2:</strong>	<br>
+				<strong>Venue City, State Postal Code:	Long Beach, CA 90802</strong><br>
+				<strong>Information Phone Number:	</strong>
+				<strong>Event Web Site:</strong>	
+E-Mail Address:	
+Ticket Quantity:	10
+Tix Call Center:	NO
+Tix Fulfillment:	NO
+Event Date/Time:	8/19/2016 8:00 PM
+Public Sale Start Date/Time:	8/18/2016 11:00 PM
+Public Sale End Date/Time:	8/19/2016 5:00 PM
+
+      </div>
+      <div class="modal-footer">
+				
+				<button type="button" class="btn btn-info">
+					Modify
+				</button>
+        <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+<script>
+$(document).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+</script>
+</body>
+</html>
